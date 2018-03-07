@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('button').on('click', function() {
+    $('#animalsbuttons').on('click', "button", function() {
         var animal = $(this).data('name');
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=by29g3suHV30nx956bIxLaOt86SOURvt&limit=10";
 
